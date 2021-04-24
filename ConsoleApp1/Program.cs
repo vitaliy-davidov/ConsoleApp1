@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Main");
+            Class2 Obj2 = new Class2();
+            Obj2.MyProperty2 = 55;
         }
     }
 }
